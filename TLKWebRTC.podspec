@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/otalk/TLKWebRTC.git", :tag => s.version.to_s }
   s.source_files = "Classes/*.{h,m}"
   s.requires_arc = true
-  s.dependency 'libjingle_peerconnection', '10604.2.2'
+  # s.dependency 'libjingle_peerconnection', '10604.2.2'
 end
